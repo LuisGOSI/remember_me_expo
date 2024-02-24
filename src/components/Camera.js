@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, Dimensions , StyleSheet} from 'react-native';
 import { Camera } from 'expo-camera';
-import TopStroke from '../../components/TopStroke';
+import TopStroke from './TopStroke';
 
 const { width, height } = Dimensions.get('window');
 
